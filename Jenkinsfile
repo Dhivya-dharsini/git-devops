@@ -12,7 +12,8 @@ node {
          * docker build on the command line */
         def dockerHome = tool 'myDocker'
         env.PATH = "${dockerHome}/bin:${env.PATH}"
-        app = docker.build("edureka1/edureka")
+        echo $env.PATH
+        app = docker.build("git-devops")
     }
 
     stage('Test image') {
