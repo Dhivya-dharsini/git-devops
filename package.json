@@ -1,5 +1,5 @@
 {
-"name": "getintodevops-hellonode",
+"name": "learndevops",
 "version": "1.0.0",
 "description": "A Hello World HTTP server",
 "main": "hello.js",
@@ -8,15 +8,13 @@
 },
 "repository": {
 "type": "git",
-"url": "https://github.com/getintodevops/masterclass-codeexamples/"
+"url": "https://github.com/Dhivya-dharsini/git-devops.git"
 },
 "keywords": [
 "node",
 "docker",
 "dockerfile"
 ],
-"author": "miiro@getintodevops.com",
-"license": "ISC",
 "devDependencies": {
 "test": ">=0.6.0"
 }
