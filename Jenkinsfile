@@ -1,4 +1,10 @@
 node {
+    pipeline {
+        agent {
+            docker {
+                image 'node:7-alpine'
+            }
+    }
     def app
 
     stage('Clone repository') {
