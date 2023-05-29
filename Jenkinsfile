@@ -10,10 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-        def dockerHome = tool 'myDocker'
-        env.PATH = "${dockerHome}/bin:${env.PATH}"
-        echo $env.PATH
-        app = docker.build("git-devops")
+        app = docker.build("devops_123")
     }
 
     stage('Test image') {
